@@ -1,9 +1,9 @@
 <script>
-	import Modal from './SeedGenerationModal.svelte';
-	import gameSeed from './game_seed_structure.json';
+	import Modal from '$lib/components/SeedGenerationModal.svelte';
+	import gameSeed from '$lib/game_seed_structure.json';
 
-	import GameOfLife from './game_of_life.js';
-	import SeedGenerationModal from './SeedGenerationModal.svelte';
+	import GameOfLife from '$lib/game_of_life.js';
+	import SeedGenerationModal from '$lib/components/SeedGenerationModal.svelte';
 
 	const GAME_SETTINGS = {
 		columns: 60,
