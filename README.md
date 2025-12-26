@@ -1,38 +1,47 @@
-# create-svelte
+# 🧬 Conway's Game of Life
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/main/packages/create-svelte).
+An simple interactive implementation of Conway's Game of Life built with **Svelte** and **SvelteKit**.
 
-## Creating a project
+[LIVE DEMO](https://https://qwacktuz.github.io/conways-game-of-life/)
 
-If you're seeing this, you've probably already done this step. Congrats!
+---
+
+## ✨ Features
+
+- **Interactive Grid**: Draw cells directly on the board while the simulation is paused.
+- **Seed Generation**: Export and import patterns or specific structures (random seen generation coming soon™️)
+- **Static Deployment**: Fully automated CI/CD pipeline via GitHub Actions.
+
+## 🚀 Tech Stack
+
+- **Framework**: [SvelteKit](https://kit.svelte.dev/)
+- **State Management**: Svelte Stores
+- **Package Manager**: [pnpm](https://pnpm.io/)
+- **Deployment**: GitHub Pages (Static Adapter)
+
+---
+
+## 🕹️ The Rules
+
+The Game of Life is a zero-player game, meaning its evolution is determined by its initial state.
+
+1. **Birth**: Any dead cell with exactly three live neighbors becomes a live cell.
+2. **Survival**: Any live cell with two or three live neighbors lives on to the next generation.
+3. **Death**: All other live cells die in the next generation (underpopulation or overpopulation).
+
+---
+
+## 🛠️ Development
+
+### Installation
 
 ```bash
-# create a new project in the current directory
-npm create svelte@latest
+# Clone the repository
+git clone https://github.com/Qwacktuz/conways-game-of-life.git
 
-# create a new project in my-app
-npm create svelte@latest my-app
+# Install dependencies
+pnpm install
+
+# Run the development server
+pnpm run dev --open
 ```
-
-## Developing
-
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
-
-```bash
-npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
-
-## Building
-
-To create a production version of your app:
-
-```bash
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
