@@ -2,7 +2,7 @@
 
 An simple interactive implementation of Conway's Game of Life built with **Svelte** and **SvelteKit**.
 
-[LIVE DEMO](https://https://qwacktuz.github.io/conways-game-of-life/)
+[LIVE DEMO](https://qwacktuz.github.io/conways-game-of-life/)
 
 ---
 
