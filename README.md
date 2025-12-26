@@ -9,7 +9,7 @@ A simple interactive implementation of Conway's Game of Life built with **Svelte
 ## ✨ Features
 
 - **Interactive Grid**: Draw cells directly on the board while the simulation is paused.
-- **Seed Generation**: Export and import patterns or specific structures (random seen generation coming soon™️)
+- **Seed Generation**: Export and import patterns or specific structures (random seed generation coming soon™️)
 - **Static Deployment**: Fully automated CI/CD pipeline via GitHub Actions.
 
 ## 🚀 Tech Stack
