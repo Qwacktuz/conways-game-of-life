@@ -63,7 +63,7 @@
 			<input type="number" id="generation" bind:value={generationIncrement} min="0" />
 			<button on:click={() => game.incrementGenerations(generationIncrement)}>Go</button>
 
-			<label for="seedInput">Skriv inn game seed: </label>
+			<label for="seedInput">Enter game seed: </label>
 			<input type="text" bind:value={seed} id="seedInput" />
 			<button on:click={() => game.loadSeedString(seed)}>Load game seed</button>
 		</div>
