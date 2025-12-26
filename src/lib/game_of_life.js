@@ -87,7 +87,7 @@ class GameOfLife {
 		);
 		this.generation++;
 
-		// Svelte reacitvity with stores, .update(n=>{}) can be used aswell
+		// Svelte reactivity with stores, .update(n=>{}) can be used as well
 		this._store.update((n) => ({ ...n, grid: newGrid, generation: this.generation }));
 
 		// Previous more ugly version:

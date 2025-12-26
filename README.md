@@ -1,6 +1,6 @@
 # 🧬 Conway's Game of Life
 
-An simple interactive implementation of Conway's Game of Life built with **Svelte** and **SvelteKit**.
+A simple interactive implementation of Conway's Game of Life built with **Svelte** and **SvelteKit**.
 
 [LIVE DEMO](https://qwacktuz.github.io/conways-game-of-life/)
 
